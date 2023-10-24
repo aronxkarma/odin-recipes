@@ -1,6 +1,15 @@
 /* Style sheet for odin-recipes project */
 * {
     text-align: center;
+    box-sizing: border-box;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    align-content: flex-start;
+    flex: auto;
 }
 
 h1 {
@@ -8,19 +17,43 @@ h1 {
     font-size: 40px;
     color: #006699;
     font-weight: bold;
+    margin: 20px;
 }
 
 p {
     font-size: 25px;
-    font-family: 'Courier New',
+    font-family: Georgia;
+    margin: 10px;
 }
 
-li {
-    display: inline;
-}
 
 .recipe-list {
-    font-size: 25px;
+    font-size: 30px;
     font-family: Verdana;
-    display: inline;
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    Display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    flex: auto;
+    
 }
+
+.images {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: auto;
+}
+
+.image-one,
+.image-two {
+    
+    width: 500px;
+    height: 350px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+}
+
